@@ -1,0 +1,109 @@
+/* Change css to different navbar colors, text, fonts, bg's ect... */
+
+
+/* :root {
+  --jumbotron-padding-y: 3rem;
+}
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: rgb(198, 16, 16);
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+} */
+
+.jumbotron{
+  background-color: #333 !important;
+  border-radius: 0px !important;
+  color: white;
+  
+}
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+  
+}
+
+.jumbotron .container {
+  max-width: 100rem;
+  
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+  text-align: center !important;
+}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgb(27, 27, 27); }
+
+/*fa fa icons*/
+
+.icons-social i{
+  padding: 10px;
+  font-size: 20px;
+
+}
+
+.icons-social a{
+  margin: 9px;
+  color: blue;
+}
+
+.icons-social a:hover{
+  color: rgb(236, 15, 45);
+}
+
+#p-text{
+  text-align: center;
+  font-size: 30px;
+}
+/* 
+li a:link{
+  text-decoration: none;
+} */
+
+img{
+  margin-right: 10px;
+}
+
+.bg{
+  /* add baground picture with opacity 0.7; */
+  /* background-color: rgb(80, 152, 214); */
+  /* background-image: url("https://images.pexels.com/photos/301378/pexels-photo-301378.jpeg?auto=compress&cs=tinysrgb&h=350");
+  background-size: cover;
+  height: 100%; */
+  background: #333 !important;
+}
+
+.navbar{
+  background-color: #333 !important;
+}
+
+.card:hover {
+  opacity: 0.7;
+}
+#p-text{
+  color: #333;
+}
+
+/* Cover full width/height of jumbotron */
+/* .jumbotron{
+  background-image: url("https://images.pexels.com/photos/281260/pexels-photo-281260.jpeg?auto=compress&cs=tinysrgb&h=350");
+  background-size: cover;
+  height: 100%;
+  
+} */
