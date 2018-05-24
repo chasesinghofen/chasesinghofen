@@ -1,0 +1,67 @@
+.jumbotron {
+   background-image: url("https://images.pexels.com/photos/248159/pexels-photo-248159.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+   background-size: cover;
+   height: 50vh;
+   
+}
+
+body{
+   background-color:rgb(240, 240, 239); 
+   overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.container{
+   margin-top: 13px;
+}
+footer{
+   text-align: center;
+   color: black;
+   margin: 20px;
+   font-family: 'Great Vibes', cursive;
+
+   
+}
+.hr{
+  border: 0;
+  height: 0;
+  box-shadow: 0 0 10px 1px black;
+
+}
+.card-deck .card-img-top:hover{
+  -webkit-transition: all 1s ease-in-out; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+.card-deck .card-img-top:hover {
+  -webkit-transform:scale(1.25); /* Safari and Chrome */
+  -moz-transform:scale(1.25); /* Firefox */
+  -ms-transform:scale(1.25); /* IE 9 */
+  -o-transform:scale(1.25); /* Opera */
+   transform:scale(1.25);
+   
+}
+.card-body{
+  background-color: white;
+  border: 0;
+  
+}
+.card{
+  margin: none;
+}
+h3 {
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Great Vibes', cursive;
+  font-size: 50px;
+}
+p, h5{
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Great Vibes', cursive;
+  font-size: 25px;
+}
+h5 {
+  font-weight: 600;
+}
