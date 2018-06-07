@@ -71,10 +71,15 @@ footer p {
   text-align: center;
   font-size: 30px;
 }
-/* 
-li a:link{
-  text-decoration: none;
-} */
+
+.list-unstyled li a:hover{
+   color: #00cc00 !important;
+   text-decoration: none;
+ }
+
+#disabled:hover{
+  cursor: not-allowed;
+ }
 
 img{
   margin-right: 10px;
