@@ -21,10 +21,18 @@
 /* CSS STYLES FOR INDEX FILE  */
 /* CSS STYLES FOR INDEX FILE  */
 /* CSS STYLES FOR INDEX FILE  */
-body,
-.album {
-  background-color: #ddd !important;
+body {
+  background-color: #ccc !important;
 }
+
+.album {
+  background-color: #ccc;
+}
+
+#album-bg{
+  background-color: #ccc;
+}
+
 .jumbotron{
   background-color: #333 !important;
   border-radius: 0px !important;
@@ -52,7 +60,7 @@ body,
 footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  background: #ddd;
+  background: #ccc;
 }
 
 footer p {
