@@ -86,15 +86,12 @@ footer p {
 #p-text{
   text-align: center;
   font-size: 30px;
+  color: black !important;
 }
 
 .list-unstyled li a:hover{
    color: #00cc00 !important;
    text-decoration: none;
- }
-
-#disabled:hover{
-  cursor: not-allowed;
  }
 
 img{
@@ -115,11 +112,9 @@ img{
 }
 
 .card:hover {
-  opacity: 0.7;
+  opacity: 0.8;
 }
-#p-text{
-  color: #333;
-}
+
 
 /* Cover full width/height of jumbotron */
 /* .jumbotron{
