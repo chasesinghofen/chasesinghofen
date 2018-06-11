@@ -18,6 +18,16 @@
   }
 } */
 
+/* CSS STYLES FOR INDEX FILE  */
+/* CSS STYLES FOR INDEX FILE  */
+/* CSS STYLES FOR INDEX FILE  */
+body{
+  background-color: #ddd !important;
+}
+.album{
+  background-color: #ddd;
+}
+
 .jumbotron{
   background-color: #333 !important;
   border-radius: 0px !important;
@@ -38,14 +48,20 @@
   
 }
 
+#my-face{
+   cursor: default;
+ }
+
 footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
+  background: #ddd;
 }
 
 footer p {
   margin-bottom: .25rem;
   text-align: center !important;
+  color: black;
 }
 
 .box-shadow { box-shadow: 0 .25rem .75rem rgb(27, 27, 27); }
