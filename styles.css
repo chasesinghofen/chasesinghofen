@@ -21,13 +21,10 @@
 /* CSS STYLES FOR INDEX FILE  */
 /* CSS STYLES FOR INDEX FILE  */
 /* CSS STYLES FOR INDEX FILE  */
-body{
+body,
+.album {
   background-color: #ddd !important;
 }
-.album{
-  background: #ddd;
-}
-
 .jumbotron{
   background-color: #333 !important;
   border-radius: 0px !important;
