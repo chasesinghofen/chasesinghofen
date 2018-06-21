@@ -1,0 +1,54 @@
+.nav-color{
+  background-color: #0d83e4c6;
+}
+
+.slider .btn {
+  margin-top: 20px;
+}
+.btn{
+  background-color: #d30c0cc6;
+  opacity: 0.8;
+}
+.btn:hover{
+  background-color: #0d83e4c6;
+}
+.section-search input {
+  padding: 5px !important;
+  font-size: 18px !important;
+  width: 90% !important;
+  border: #f4f4f4 3px solid !important;
+}
+
+.autocomplete-content {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+.text{
+  color: black; 
+}
+.section-follow .fa-4x {
+  margin:5px 10px;
+  
+}
+
+.section{
+  background-color: #0d83e4c6;
+}
+.Headquarters{
+  background-color: #0d83e4c6;
+}
+
+.section-contact h5 {
+  margin-bottom: 20px;
+}
+#p-footer{
+  font-size: 17px;
+}
+
+footer{
+  background-color: #0d83e4c6;
+}
+#mobile-nav{
+  width: 100;
+}
