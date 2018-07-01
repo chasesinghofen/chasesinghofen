@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Satisfy');
+
+@import url('https://fonts.googleapis.com/css?family=Calligraffitti');
+
 .jumbotron {
    background-image: url("https://images.pexels.com/photos/248159/pexels-photo-248159.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
    background-size: cover;
@@ -6,7 +10,7 @@
 }
 
 body{
-   background-color:rgb(240, 240, 239); 
+   background-color:rgb(199, 199, 196); 
    overflow-y: scroll;
     overflow-x: hidden;
 }
@@ -18,7 +22,7 @@ footer{
    text-align: center;
    color: black;
    margin: 20px;
-   font-family: 'Great Vibes', cursive;
+   font-family: 'Kaushan Script', cursive;
 
    
 }
@@ -53,15 +57,34 @@ footer{
 }
 h3 {
   color: white;
-  font-family: 'Dancing Script', cursive;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Kaushan Script', cursive;
   font-size: 50px;
 }
-p, h5{
-  font-family: 'Dancing Script', cursive;
-  font-family: 'Great Vibes', cursive;
-  font-size: 25px;
+span{
+  font-size:25px;
+  color: white;
+  font-family: 'Kaushan Script', cursive; 
+}
+p{
+  font-family: 'Calligraffitti', cursive;
+  font-size: 20px;
 }
 h5 {
   font-weight: 600;
+  font-family: 'Kaushan Script', cursive;
+  color: blue;
+}
+
+#more-info{
+  font-weight: 400;
+  font-family: 'Kaushan Script', cursive;
+  color: blue;
+  text-align: center;
+}
+a{
+  float: left;
+}
+a:hover {
+  color: hotpink;
+  text-decoration: none;
 }
