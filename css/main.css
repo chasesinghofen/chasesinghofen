@@ -74,6 +74,13 @@ li a {
 #mit{
   text-align: center;
 }
+#map{
+  padding: 5px;
+  box-shadow: 5px 5px 5px #888888;
+  -moz-box-shadow: 5px 5px 5px #888888;
+	-webkit-box-shadow: 5px 5px 5px #888888;
+	-khtml-box-shadow: 5px 5px 5px #888888;
+}
 @media (max-width: 600px) {
   .main-header {
     height: 50vh;
