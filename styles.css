@@ -10,7 +10,7 @@ body {
 }
 
 .jumbotron{
-  background-color: #444 !important;
+  background-color: #666 !important;
   border-radius: 0px !important;
   color: white;
   
@@ -33,7 +33,7 @@ body {
 }
 
 #home-btn:hover{
-    color: white;
+    color: rgb(236, 15, 45);
  }
 
 #my-face{
@@ -43,8 +43,8 @@ body {
 
 footer {
   padding-top: 3rem;
-  padding-bottom: 3rem;
-  background: #ddd;
+  padding-bottom: 1rem;
+  background: #999999;
 }
 
 footer p {
@@ -52,8 +52,6 @@ footer p {
   text-align: center !important;
   color: black;
 }
-
-.box-shadow { box-shadow: 0 .25rem .75rem rgb(27, 27, 27); }
 
 /*fa fa icons*/
 
@@ -89,13 +87,13 @@ img{
 }
 
 .bg{
-   background: #444 !important;
+   background-color: #666  !important;
 }
 
 .navbar{
-  background-color: #444 !important;
+  background-color: #666 !important;
 }
 
-.card:hover {
+.card-img-top:hover {
   opacity: 0.7;
 }
