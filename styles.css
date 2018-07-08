@@ -58,7 +58,10 @@ footer p {
 .icons-social i{
   padding: 8px;
   font-size: 20px;
+}
 
+#fa-hand-up{
+   font-size: 25px;
 }
 
 .icons-social a{
