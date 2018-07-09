@@ -74,6 +74,10 @@ footer p {
   text-decoration: none;
 }
 
+#about{
+   font-size: 17px;
+ }
+
 #p-text{
   text-align: center;
   font-size: 30px;
