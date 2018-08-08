@@ -1,6 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400i');
 
-@import url('https://fonts.googleapis.com/css?family=Calligraffitti');
+
+*{
+  font-family: 'Sorts Mill Goudy', serif;
+
+}
 
 .jumbotron {
    background-image: url("https://images.pexels.com/photos/248159/pexels-photo-248159.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
@@ -22,9 +26,7 @@ footer{
    text-align: center;
    color: black;
    margin: 20px;
-   font-family: 'Kaushan Script', cursive;
-
-   
+    
 }
 .hr{
   border: 0;
@@ -33,19 +35,8 @@ footer{
 
 }
 .card-deck .card-img-top:hover{
-  -webkit-transition: all 1s ease-in-out; /* Safari and Chrome */
-    -moz-transition: all 1s ease; /* Firefox */
-    -ms-transition: all 1s ease; /* IE 9 */
-    -o-transition: all 1s ease; /* Opera */
-    transition: all 1s ease;
-}
-.card-deck .card-img-top:hover {
-  -webkit-transform:scale(1.25); /* Safari and Chrome */
-  -moz-transform:scale(1.25); /* Firefox */
-  -ms-transform:scale(1.25); /* IE 9 */
-  -o-transform:scale(1.25); /* Opera */
-   transform:scale(1.25);
-   
+  opacity: 0.7;
+
 }
 .card-body{
   background-color: white;
@@ -57,27 +48,22 @@ footer{
 }
 h3 {
   color: white;
-  font-family: 'Kaushan Script', cursive;
   font-size: 50px;
 }
 span{
   font-size:25px;
   color: white;
-  font-family: 'Kaushan Script', cursive; 
 }
 p{
-  font-family: 'Calligraffitti', cursive;
   font-size: 20px;
 }
 h5 {
   font-weight: 600;
-  font-family: 'Kaushan Script', cursive;
   color: blue;
 }
 
 #more-info{
   font-weight: 400;
-  font-family: 'Kaushan Script', cursive;
   color: blue;
   text-align: center;
 }
