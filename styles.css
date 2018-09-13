@@ -39,6 +39,8 @@ body {
 #my-face{
   cursor: default;
   font-weight: none;
+  float: left;
+  border-radius: 60%;
  }
 
 footer {
