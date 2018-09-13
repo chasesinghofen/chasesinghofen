@@ -102,7 +102,9 @@ img{
 .navbar{
   background-color: #666 !important;
 }
-
+.card{
+  box-shadow:0 0 20px #333;
+}
 .card-img-top:hover {
-  opacity: 0.7;
+  opacity: 0.9;
 }
