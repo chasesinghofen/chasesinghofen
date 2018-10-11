@@ -106,7 +106,9 @@ p{
 }
 
 #contact{
-  background:url(https://chasesinghofen.github.io/chasesinghofen/img/landscape.jpeg);
+   background-image: url("img/landscape.jpeg");
+
+/*   background:url(https://chasesinghofen.github.io/chasesinghofen/img/landscape.jpeg); */
   padding:40px;
   color:#fff;
   /* border-top:#333 7px solid;
