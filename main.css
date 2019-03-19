@@ -24,6 +24,9 @@
   width: 100%;
   text-align: center;
 }
+.h3-text{
+  color: #0d83e4c6;
+}
 .text{
   color: black; 
 }
@@ -33,7 +36,7 @@
 }
 
 .section{
-  background-color: #fff;
+  background-color:#d8d8d8;
 }
 .Headquarters{
   background-color: #0d83e4c6;
@@ -46,9 +49,29 @@
   font-size: 17px;
 }
 
-footer{
+.page-footer{
   background-color: #0d83e4c6;
+}
+.footer-copyright{
+  background-color: #0d83e4c6;
+ 
 }
 #mobile-nav{
   width: 100;
+}
+/* Google map */
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  
 }
