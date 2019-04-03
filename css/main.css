@@ -1,17 +1,107 @@
-.loader {
+*{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#mobile-nav{
+  background-color: black;
+  opacity: 0.9;
+  
+}
+li a {
+  color: black;
+  font-weight: 500 !important;
+}
+.primary-overlay {
+  background: rgba(63, 57, 77, 0.7);
   position: absolute;
-  top: 40%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.main-header {
+  background: url("../img/showcase-nyc.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  min-height: 600px;
+  color: #fff;
+  position: relative;
+}
+
+.main-header .showcase {
+  padding-top: 110px;
+}
+
+.scroll-icon {
+  position: absolute;
+  bottom: 5%;
   left: 47%;
+  opacity: 0.5;
 }
 
-.login {
-  margin-top: 70px;
-  margin-bottom: 70px;
+.box {
+  padding: 40px 10px !important;
 }
 
-.btn-extended {
-  display: block;
-  width: 80%;
-  margin: auto;
-  margin-top: 20px;
+.box h4 {
+  padding-bottom: 30px;
+}
+
+.section-boxes .row {
+  margin-bottom: 0 !important;
+}
+
+.section-contact {
+  position: relative;
+}
+
+.section-contact .card-panel {
+  position: relative;
+  z-index: 1;
+}
+
+#googlemap {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.map-responsive{
+  overflow:hidden;
+  /* padding-bottom:56.25%; */
+  position:relative;
+  height:0;
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+#mit{
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .main-header {
+    height: 50vh;
+  }
+}
+/* placeholder text */
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #000;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #000;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #000;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #000;
 }
