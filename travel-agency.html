@@ -406,13 +406,15 @@
         </div>
         <div class="col s12 m6">
           <div class="card-panel grey lighten-3 z-depth-5">
-            <h5>Please fill out this form</h5>
-            <div class="input-field">
-              <input type="text" placeholder="Name" id="name">
-              <label for="name">Name</label>
-            </div>
-            <div class="input-field">
+            <h5>Are you ready to Getaway??</h5>
+            <input type="text" placeholder="Click here to Schedule!" class="datepicker" />
+              <div class="input-field">
+               <input type="text" id="name" placeholder="Name" />
+                <label for="name">Name</label>
+              </div>
+              <div class="input-field">
               <input type="email" placeholder="Email" id="email">
+
               <label for="email">Email</label>
             </div>
             <div class="input-field">
@@ -446,14 +448,29 @@
       </div>
     </div>
     <div class="page-footer container center">
-      Travel Agency/Destination Materialize css Theme &copy; MIT License 2019<a class="grey-text text-lighten-4 right" href="#home"></a>
+      &copy; 2019 MIT License Travel Agency Template<a class="grey-text text-lighten-4 right" href="#home"></a>
     </div>
   </footer>
 
   <!--IMPORTANT!!! - - - Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+      const Calendar = document.querySelector(".datepicker");
+      M.Datepicker.init(Calendar, {
+        format: "dd-mm-yy"
+      });
+    </script>
+
   <script>
+     // Or with jQuery
+
+      $(document).ready(function() {
+    $(".datepicker").datepicker();
+     });
+    
+
+
     $(document).ready(function () {
       // Init Side nav
       $('.button-collapse').sideNav();
