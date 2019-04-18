@@ -103,8 +103,9 @@ img{
   background-color: #666 !important;
 }
 .card{
-  box-shadow:0 0 20px #333;
+-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.986);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.986);
 }
 .card-img-top:hover {
-  opacity: 0.9;
+  opacity: 0.6;
 }
