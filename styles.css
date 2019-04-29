@@ -82,7 +82,7 @@ color: #000;
 }
 
 .list-unstyled li a:hover{
-   color: rgb(236, 15, 45) !important;
+   color: #000 !important;
    text-decoration: none;
  }
 
