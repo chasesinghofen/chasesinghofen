@@ -2,16 +2,16 @@
 /* CSS STYLES FOR INDEX FILE  */
 /* CSS STYLES FOR INDEX FILE  */
 body {
-  background-color: #909492 !important;
+  background-color: #acacac !important;
 }
 
 #album-bg{
-  background-color: #909492;
+  background-color: #acacac !important;
 }
 
 .jumbotron{
-  background-color: #666 !important;
-  border-radius: 0px !important;
+ background-color: #acacac !important;
+ border-radius: 0px !important;
   color: white;
   
 }
@@ -46,7 +46,7 @@ body {
 footer {
   padding-top: 3rem;
   padding-bottom: 1rem;
-  background: #999999;
+  background-color: #acacac !important;
 }
 
 footer p {
@@ -57,18 +57,13 @@ footer p {
 
 /*fa fa icons*/
 
-#big-icon{
-  font-size: 30px;
-}
-
 .icons-social i{
   padding: 8px;
-  font-size: 20px;
 }
 
 .icons-social a{
-  margin: 9px;
-  color: blue;
+margin: 9px;
+color: #000;
 }
 
 .icons-social a:hover{
@@ -96,11 +91,11 @@ img{
 }
 
 .bg{
-   background-color: #666  !important;
+  background-color: #acacac !important;
 }
 
 .navbar{
-  background-color: #666 !important;
+  background-color: #acacac !important;
 }
 .card{
 -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.986);
