@@ -423,10 +423,19 @@
               <label for="phone">Phone</label>
             </div>
             <div class="input-field">
-              <textarea class="materialize-textarea" placeholder="Enter Message" id="message"></textarea>
+              <textarea id="textarea2" class="materialize-textarea" data-length="1000" placeholder="Enter Message" id="message textarea2"></textarea>
               <label for="message">Message</label>
             </div>
             <input type="submit" value="submit" class="z-depth-5 btn">
+            <div class="file-field input-field">
+            <div class="btn">
+              <span>File</span>
+              <input type="file" multiple>
+            </div>
+            <div class="file-path-wrapper">
+              <input class="file-path validate" type="text" placeholder="Upload one or more files">
+            </div>
+          </div>
           </div>
         </div>
       </div>
@@ -507,6 +516,9 @@
 
       // Init Scrollspy
       $('.scrollspy').scrollSpy();
+      //Init text character counter
+      $('input#input_text, textarea#textarea2').characterCounter();
+
 
     });
   </script>
