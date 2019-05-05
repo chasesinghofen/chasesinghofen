@@ -1,6 +1,28 @@
 /* CSS STYLES FOR INDEX FILE  */
 /* CSS STYLES FOR INDEX FILE  */
 /* CSS STYLES FOR INDEX FILE  */
+ /* custom scrollbar */
+ /* width */
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(105, 105, 105); 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 102, 255); 
+  border-radius: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #000cb3; 
+}
 body {
   background-color: #acacac !important;
 }
