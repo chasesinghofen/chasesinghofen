@@ -35,12 +35,16 @@
           <nav class="transparent">
             <div class="container">
               <div class="nav-wrapper">
-                <a href="#home" class="brand-logo">Investors </a>
+                <a href="#home" class="brand-logo">Investments
+         
+                </a>
                 <a href="#" data-activates="mobile-nav" class="button-collapse">
                   <i class="material-icons">menu</i>
                 </a>
+                
                 <ul class="right hide-on-med-and-down">
-                  <li>
+                  
+                  <li class="active hoverable">
                     <a href="#home">Home</a>
                   </li>
                   <li>
@@ -53,14 +57,13 @@
                     <a href="#contact">Contact</a>
                   </li>
                   <li>
-                    <!-- Downloadable .pdf  **Ficticious Sample Financial Application**  -->
-                    <a
-                      href="Personal_Financial_Statement.pdf"
-                      download
-                      class="waves-effect waves-light btn z-depth-5"
-                      ><i class="material-icons right">cloud_download</i
-                      >Download app
-                    </a>
+                    <ul id="dropdown1" class="dropdown-content ">
+                      <li><a class="hoverable" href="#">May<span class="badge">1</span></a></li>
+                      <li><a class="hoverable" href="#">June<span class="new badge">2</span></a></li>
+                      <li><a class="hoverable" href="#">July<span class="new badge">3</span></a></li>
+                    </ul>
+                    <a class="btn dropdown-trigger-main hoverable" href="#" data-target="dropdown1">Articles<i class="material-icons right">arrow_drop_down</i></a>
+                </ul>
                   </li>
                 </ul>
               </div>
@@ -93,23 +96,74 @@
           <li>
             <a class="white-text" href="#contact">Contact</a>
           </li>
+          <li>
+          <ul id="dropdown2" class="dropdown-content">
+            <li><a href="#">May<span class="badge">1</span></a></li>
+            <li><a href="#">June<span class="new badge">1</span></a></li>
+            <li><a href="#">July</a></li>
+          </ul><br>
+          <a class="btn z-depth-5 dropdown-trigger-mobile" href="#!" data-target="dropdown2">Articles<i class="material-icons right">arrow_drop_down</i></a>
+      </ul>
         </ul>
+      </li>
         <!-- Showcase -->
         <div class="showcase container">
           <div class="row">
             <div class="col s12 main-text">
-              <h5>Investors LLC</h5>
-              <h1>Retirement for your future</h1>
+              
+              <h1>Retirement and your future</h1>
               <p class="flow-text">
                 Take your investments with you into retirement. Let Investors
                 LLC help you grow your portfolio with our services that have
-                helped thousands of clients retire with confidence. Download the
-                application to get Started
+                helped thousands of clients retire with confidence.
               </p>
-              <br />
-              <a href="#about" class="btn btn-large z-depth-5 white black-text"
-                >Learn More</a
-              >
+              
+               <!-- Modal Trigger -->
+      <a class="btn z-depth-5 btn modal-trigger" href="#modal1">Learn More</a>
+    
+
+      <!-- Modal Structure -->
+      <div id="modal1" class="modal">
+        <div class="modal-content">
+        
+          <h4 class="teal-text">Financial Stats & Info.<i class="material-icons left">assessment</i
+            ></h4>
+          <p class="black-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nisi, illo ipsa rerum ducimus tempore quas pariatur dicta inventore dolor esse cupiditate temporibus reiciendis ipsum provident laudantium ipsam commodi mollitia?</p>
+          <a href="#!" class="btn"><i class="material-icons left">cloud_download</i
+            >More Info</a>
+          <br>
+          <p class="black-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nisi, illo ipsa rerum ducimus tempore quas pariatur dicta inventore dolor esse cupiditate temporibus reiciendis ipsum provident laudantium ipsam commodi mollitia?</p>
+          <a href="#!" class="btn"><i class="material-icons left">cloud_download</i
+            >More Info</a>
+          <br>
+          <p class="black-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nisi, illo ipsa rerum ducimus tempore quas pariatur dicta inventore dolor esse cupiditate temporibus reiciendis ipsum provident laudantium ipsam commodi mollitia?</p>
+          <a href="#!" class="btn"><i class="material-icons left">cloud_download</i
+            >More Info</a>
+          <br>
+          <p class="black-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nisi, illo ipsa rerum ducimus tempore quas pariatur dicta inventore dolor esse cupiditate temporibus reiciendis ipsum provident laudantium ipsam commodi mollitia?</p>
+          <a href="#!" class="btn">More Info<i class="material-icons left">cloud_download</i
+            ></a>
+          <br>
+          <p class="black-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nisi, illo ipsa rerum ducimus tempore quas pariatur dicta inventore dolor esse cupiditate temporibus reiciendis ipsum provident laudantium ipsam commodi mollitia?</p>
+          <a href="#!" class="btn"><i class="material-icons left">cloud_download</i
+            >More Info</a>
+          <br>
+         
+        </div>
+        <div class="modal-footer">
+          <!-- <a href="#" class="modal-close waves-effect waves-green btn">Agree</a> -->
+          <a href="#" class="modal-close waves-effect waves-teal btn">Close</a>
+          <!-- Downloadable .pdf  **Ficticious Sample Financial Application**  -->
+          <a
+          href="Personal_Financial_Statement.pdf"
+          download
+          class="waves-effect waves-light btn z-depth-5"
+          ><i class="material-icons right">cloud_download</i
+          >Download app
+        </a>
+        </div>
+      </div>
+  </div>
               <a href="#contact" class="white-text">
                 <i class="material-icons medium scroll-icon"
                   >arrow_drop_down_circle</i
@@ -183,6 +237,7 @@
               </li>
               <li class="collection-item">
                 <i class="material-icons left">check</i> Retirement Consultation
+                
               </li>
               <li class="collection-item">
                 <i class="material-icons left">check</i> Financial Analytics
@@ -265,6 +320,105 @@
         </div>
       </div>
     </section>
+<!-- financial prospectus section -->
+    <section
+      id="testimonials"
+      class="section section-testimonials grey darken-1 white-text center scrollspy"
+    >
+      <div class="container">
+        <h2>Financial Prospectus</h2>
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="card grey lighten-4 black-text z-depth-5">
+              <div class="card-content">
+                <p>
+                  <ul class="collapsible">
+                    <li>
+                      <div class="collapsible-header"><i class="material-icons">poll</i>May</div>
+                      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur laborum quisquam repellat aliquam vitae!</span></div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header blue-grey lighten-2"><i class="material-icons">poll</i>June</div>
+                      <div class="collapsible-body "><span>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header"><i class="material-icons">poll</i>July</div>
+                      <div class="collapsible-body blue-grey lighten-2"><span>Lorem ipsum dolor sit amet. Lorem, ipsum dolor sit amet consectetur adipisicing elit.</span></div>
+                    </li>
+                  </ul>
+                        
+                </p>
+              </div>
+              <div class="card-action">
+                <p>2017 ~ New York, USA</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card grey lighten-4 black-text z-depth-5">
+              <div class="card-content">
+                <p>
+                  <ul class="collapsible expandable">
+                    <li>
+                      <div class="collapsible-header blue-grey lighten-2"><i class="material-icons">poll</i>August</div>
+                      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit.</span></div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header"><i class="material-icons">poll</i>September</div>
+                      <div class="collapsible-body blue-grey lighten-2"><span>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit!</span></div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header blue-grey lighten-2"><i class="material-icons">poll</i>November</div>
+                      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, velit!.</span></div>
+                    </li>
+                    
+                  </ul>
+                        
+                </p>
+              </div>
+              <div class="card-action">
+                <p>2018 ~ Chicago, USA</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card grey lighten-4 black-text z-depth-5">
+              <div class="card-content">
+                <p>
+                  <ul class="collapsible popout">
+                    <li>
+                      <div class="collapsible-header"><i class="material-icons">poll</i>December</div>
+                      <div class="collapsible-body blue-grey lighten-2"><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro officia, maxime, sit architecto, voluptate libero inventore molestiae sint m error minus eveniet..</span></div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header blue-grey lighten-2"><i class="material-icons">poll</i>January</div>
+                      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint necessitatibus veniam enim rem animi porro amet molestias et, fuga tempore quibusdamm..</span></div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header"><i class="material-icons">poll</i>February</div>
+                      <div class="collapsible-body blue-grey lighten-2"><span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur neat? Aliquid, ea?</span></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">poll</i>March</div>
+                        <div class="collapsible-body blue-grey lighten-2"><span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur neat? Aliquid, ea?</span></div>
+                      </li>
+                      <li>
+                          <div class="collapsible-header blue-grey lighten-2"><i class="material-icons">poll</i>April</div>
+                          <div class="collapsible-body "><span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur neat? Aliquid, ea?</span></div>
+                        </li>
+
+                  </ul>
+                        
+                </p>
+              </div>
+              <div class="card-action">
+                <p>2019 ~ Boston, USA</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Section: Contact -->
     <section id="contact" class="section section-contact center scrollspy">
@@ -330,6 +484,18 @@
         </div>
       </form>
     </div> -->
+    <div class="fixed-action-btn">
+      <a class="btn-floating btn-large red">
+        <i class="large material-icons">apps</i>
+      </a>
+      <ul>
+        <!-- target="_blank" options -->
+        <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+        <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+        <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+        <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+      </ul>
+    </div>
     <!-- Footer -->
     <footer class="page-footer grey darken-1">
       <div class="container">
@@ -402,11 +568,18 @@
       //
 
       // Or with jQuery
+      $(document).ready(function(){
+    $('.modal').modal();
+  });
+      //dropdown navbar menu
+     $(".dropdown-trigger-main").dropdown();
+     $(".dropdown-trigger-mobile").dropdown();
 
+     //datepicker
       $(document).ready(function() {
         $(".datepicker").datepicker();
       });
-      //
+      
       $(document).ready(function() {
         // Init Sidenav
         $(".button-collapse").sideNav();
