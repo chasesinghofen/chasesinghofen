@@ -6,7 +6,10 @@
 ::-webkit-scrollbar {
   width: 13px;
 }
-
+/* space beteen buttons on BS project cards */
+.btn-space{
+  margin-left: 80px !important;
+}
 /* Track */
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px rgb(105, 105, 105); 
