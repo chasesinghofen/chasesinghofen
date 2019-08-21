@@ -5,6 +5,7 @@
 <head>
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-1/css/all.min.css">
   <!--Import materialize.css Make sure latest version is before earlier version-->
   <link type="text/css" rel="stylesheet" href="css/materialize.min-v1.0.0.css"/>
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
@@ -44,32 +45,46 @@
       </div>
     </nav>
   </div>
-  <ul class="side-nav show-on-medium-only hide-on-small-only" id="mobile-nav">
+  <!-- Add class=" hide-on-small-only" for mobile nav to not show/open on mobile -->
+  <ul class="side-nav show-on-medium-only darken-4 blue" id="mobile-nav">
     <li>
-      <a href="#home">Home</a>
+      <a class="white-text hoverable" href="#home">Home</a>
     </li>
     <li>
-      <a href="#search">Search</a>
+      <a class="white-text hoverable "href="#search">Search</a>
     </li>
     <li>
-      <a  href="#popular">Popular Places</a>
+      <a class="white-text hoverable" href="#popular">Popular Places</a>
     </li>
     <li>
-      <a  href="#gallery">Gallery</a>
+      <a class="white-text hoverable " href="#gallery">Gallery</a>
     </li>
     <li>
-      <a  href="#contact">Bookings</a>
+      <a  class="white-text hoverable "href="#contact">Bookings</a>
     </li>
+    <li>
+        <ul id="dropdown2" class="dropdown-content">
+            <li><a class="hoverable active " href="#">May<span class="badge">1</span></a></li>
+            <li><a href="#">June<span class="new badge blue">1</span></a></li>
+            <li><a href="#">July</a></li>
+          </ul><br>
+          <a class="btn z-depth-5 dropdown-trigger-mobile blue " href="#!" data-target="dropdown2">Articles<i class="material-icons right">arrow_drop_down</i></a>
+      </ul>
+
+      </li>
+
   </ul>
+  
 
   <!-- Section: Slider -->
-  <section class="slider">
+  <section class="slider video-slider">
     <ul class="slides">
       <li>
-        <img src="img/resort1.jpg" alt="">
+        <img src="img/resort2.jpg" alt="">
         <div class="caption center-align">
           <h2>Vacation with family & friends</h2>
           <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam non illo earum cumque id est!</h5>
+          
           <a href="#search" class="btn btn-large btn-floating pulse ">INFO</a>
         </div>
       </li>
@@ -91,6 +106,7 @@
       </li>
     </ul>
   </section>
+  
 
   <!-- Section: Search -->
   <section id="search" class="section section-search darken-1 white-text center scrollspy">
@@ -106,35 +122,70 @@
     </div>
   </section>
 
-  <!-- Section: Icon Boxes -->
-  <section class="section section-icons lighten-4 center">
-    <div class="container">
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="card-panel  blue lighten-2 z-depth-5">
-            <i class="material-icons medium">near_me</i>
-            <h4>Next Destination</h4>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, velit.</p>
+  <!-- videos section -->
+
+  <section id="popular" class="section section-popular scrollspy">
+      <div class="container">
+        <div class="row ">
+          <h4 class="center">
+            <span class="black-text">Vacation World Wide</h4>
+          <div class="col s12 m4 ">
+            <div class="card z-depth-5 hoverable">
+                <div class="video-container video-row-bg" >
+                    <!-- html video tag works better for media controls then iframe tag -->
+                    <!-- use height="100%" width="100%" for good video container responsive-ness -->
+                    <video class="responsive-video" height="100%" width="100%" controls loop muted autoplay>
+                        <source src="mp4-videos-travel-theme/ocean-speedboat.mp4" type="video/mp4" >
+                      </video>
+                      </div>
+              <div class="card-content video-row-bg">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas aliquid fugiat corporis laudantium, architecto
+                  delectus?
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="col s12 m4">
-          <div class="card-panel  blue lighten-2 z-depth-5">
-            <i class="material-icons medium">store</i>
-            <h4>Travel & Shopping</h4>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, velit.</p>
+          <div class="col s12 m4">
+            <div class="card z-depth-5 hoverable">
+                <div class="video-container video-row-bg ">
+                  <!-- html video tag works better for media controls then iframe tag -->
+                  <video class="responsive-video "height="100%" width="100%" controls loop muted autoplay>
+                      <source src="mp4-videos-travel-theme/clear-water.mp4" type="video/mp4">
+                    </video>
+                    </div>
+              <div class="card-content video-row-bg">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas aliquid fugiat corporis laudantium, architecto
+                  delectus?
+                </p>
+              </div>
+            </div>
           </div>
+          <div class="col s12 m4">
+              <div class="card z-depth-5 hoverable">
+                  <div class="video-container video-row-bg">
+                    <!-- html video tag works better for media controls then iframe tag -->
+                    <video class="responsive-video "height="100%" width="100%" controls loop muted autoplay>
+                        <source src="mp4-videos-travel-theme/bali-sunset.mp4" type="video/mp4">
+                      </video>
+                      </div>
+                <div class="card-content video-row-bg">
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas aliquid fugiat corporis laudantium, architecto
+                    delectus?
+                  </p>
+                </div>
+              </div>
         </div>
-        <div class="col s12 m4">
-          <div class="card-panel  blue lighten-2 z-depth-5">
-            <i class="material-icons medium">flight_takeoff</i>
-            <h4>Flights & Airports</h4>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, velit.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
   
+        
+      </div>
+      <div class="row">
+          <div class="col s12 center">
+            <a href="#contact" class="z-depth-5 btn btn-large grey darken-3">
+              <i class="material-icons left">send</i> Contact For Booking
+            </a>
+          </div>
+        </div>
+    </section>
 
   <!-- Section: Popular -->
   <section id="popular" class="section section-popular scrollspy">
@@ -143,7 +194,7 @@
         <h4 class="center">
           <span class="black-text">Current Summer Deals</h4>
         <div class="col s12 m4">
-          <div class="card z-depth-5">
+          <div class="card z-depth-5 hoverable">
             <div class="card-image">
               <img src="img/resort1.jpg" alt="">
               <span class="card-title">Cancun, Mexico from $299</span>
@@ -156,7 +207,7 @@
           </div>
         </div>
         <div class="col s12 m4">
-          <div class="card z-depth-5">
+          <div class="card z-depth-5 hoverable">
             <div class="card-image">
               <img src="img/resort2.jpg" alt="">
               <span class="card-title">The Bahamas from $399</span>
@@ -169,7 +220,7 @@
           </div>
         </div>
         <div class="col s12 m4">
-          <div class="card z-depth-5">
+          <div class="card z-depth-5 hoverable">
             <div class="card-image">
               <img src="img/resort3.jpg" alt="">
               <span class="card-title">Nova Scotia from $699</span>
@@ -182,100 +233,43 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col s12 center">
-          <a href="#contact" class="z-depth-5 btn btn-large grey darken-3">
-            <i class="material-icons left">send</i> Contact For Booking
-          </a>
-        </div>
       </div>
-    </div>
   </section>
 
-  <section id="popular" class="section section-popular scrollspy">
+
+  <!-- Section: Icon Boxes -->
+<section class="section section-icons lighten-4 center">
     <div class="container">
       <div class="row">
-        <h4 class="center">
-          <span class="black-text">Early Spring Deals</h4>
         <div class="col s12 m4">
-          <div class="card z-depth-5">
-            <div class="card-image">
-              <img src="img/resort1.jpg" alt="">
-              <span class="card-title">Cancun, Mexico from $99</span>
-            </div>
-            <div class="card-content">
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas aliquid fugiat corporis laudantium, architecto
-                delectus?
-              </p>
-            </div>
+          <div class="card-panel hoverable  blue lighten-3 z-depth-5">
+            <i class="material-icons medium">near_me</i>
+            <h4>Next Destination</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, velit.</p>
           </div>
         </div>
         <div class="col s12 m4">
-          <div class="card z-depth-5">
-            <div class="card-image">
-              <img src="img/resort2.jpg" alt="">
-              <span class="card-title">The Bahamas from $199</span>
-            </div>
-            <div class="card-content">
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas aliquid fugiat corporis laudantium, architecto
-                delectus?
-              </p>
-            </div>
+          <div class="card-panel hoverable blue lighten-4 z-depth-5">
+            <i class="material-icons medium">store</i>
+            <h4>Travel & Shopping</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, velit.</p>
           </div>
         </div>
         <div class="col s12 m4">
-          <div class="card z-depth-5">
-            <div class="card-image">
-              <img src="img/resort3.jpg" alt="">
-              <span class="card-title">Nova Scotia from $399</span>
-            </div>
-            <div class="card-content">
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas aliquid fugiat corporis laudantium, architecto
-                delectus?
-              </p>
-            </div>
+          <div class="card-panel hoverable blue lighten-3 z-depth-5">
+            <i class="material-icons medium">flight_takeoff</i>
+            <h4>Flights & Airports</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, velit.</p>
           </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col s12 center">
-          <a href="#contact" class="z-depth-5 btn btn-large grey darken-3">
-            <i class="material-icons left">send</i> Contact For Booking
-          </a>
         </div>
       </div>
     </div>
   </section>
+  
 
 
-  <!-- Section: Social Media Follow -->
-  <section class="section section-follow darken-2 blue-text center">
-    <div class="container">
-      <div class="row">
-        <div class="col s12">
-          <h4> Getaways Travel Agency Around The Web</h4>
-          <p>Follow us on social media for special offers</p>
-          <a  href="htttps://facebook.com" target="_blank" class="blue-text">
-            <i class="fab fa-facebook fa-3x fa-fw"></i>
-          </a>
-          <a href="htttps://twitter.com" target="_blank" class="blue-text">
-            <i class="fab fa-twitter fa-3x fa-fw"></i>
-          </a>
-          <a href="htttps://linkedin.com" target="_blank" class="blue-text">
-            <i class="fab fa-linkedin fa-3x fa-fw"></i>
-          </a>
-          <a href="htttps://googleplus.com" target="_blank" class="blue-text">
-            <i class="fab fa-google-plus fa-3x fa-fw"></i>
-          </a>
-          <a href="htttps://pinterest.com" target="_blank" class="blue-text">
-            <i class="fab fa-pinterest fa-3x fa-fw"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Section: Gallery & Unsplash Image API used for random picture generation -->
+ 
+  <!-- Section: Optional Gallery & Unsplash Image API used for random picture generation -->
   <section id="gallery" class=" section section-gallery scrollspy">
     <div class="container">
       <h4 class="center">
@@ -387,26 +381,38 @@
     <div class="container">
       <div class="row">
         <div class="col s12 m6">
-          <div class="card-panel black-text center z-depth-5">
+          <div class="card-panel black-text center z-depth-5 hoverable">
             <i class="material-icons medium">email</i>
             <h5>Contact Getaways Travel Agency</h5>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus sed praesentium delectus. Sit, mollitia
-              quo. Veniam repellat voluptas ipsum doloremque?</p>
+            
+              <p>Follow us on social media for special offers</p>
+                       <!-- Section: Social Media Follow -->
+            <a  href="#" target="_blank" class="blue-text">
+              <i class="fab fa-facebook-f fa-2x fa-fw "></i>        
+            </a>
+            <a href="#" target="_blank" class="blue-text">
+              <i class="fab fa-twitter fa-2x fa-fw" aria-hidden="true"></i>
+            </a>
+            <a href="#" target="_blank" class="blue-text">
+              <i class="fab fa-linkedin fa-2x fa-fw"></i>
+            </a>
+            <a href="#" class="blue-text">
+              <i class="fab fa-pinterest fa-2x fa-fw"></i>
           </div>
-          <div class="card z-depth-5">
+          <div class="card z-depth-5 hoverable">
           <ul class="collection with-header">
             <li class="collection-header">
-              <h4>Office Location</h4>
+              <h4 class="black-text">Office Location</h4>
             </li>
-            <li class="collection-item">Contact Getaways Travel Agency</li>
-            <li class="collection-item">1600 Amphitheatre Parkway</li>
-            <li class="collection-item">Mountain View, CA 94043</li>
+            <li class="collection-item black-text ">Contact Getaways Travel Agency</li>
+            <li class="collection-item black-text">1600 Amphitheatre Parkway</li>
+            <li class="collection-item black-text">Mountain View, CA 94043</li>
           </ul>
         </div>
         </div>
         <div class="col s12 m6">
-          <div class="card-panel grey lighten-3 z-depth-5">
-            <h5>Are you ready to Getaway??</h5>
+          <div class="card-panel grey lighten-3 z-depth-5 hoverable">
+            <h5 class="black-text">Are you ready to Getaway??</h5>
             <input type="text" placeholder="Click here to Schedule!" class="datepicker" />
               <div class="input-field">
                <input type="text" id="name" placeholder="Name" />
@@ -434,29 +440,75 @@
             <div class="file-path-wrapper">
               <input class="file-path validate" type="text" placeholder="Upload one or more files">
             </div>
+            
           </div>
-          </div>
-        </div>
-      </div>
+
+  
     </div>
   </section>
+          </div>
+          
+        </div>
+      </div>
+      
+      
+  <div class="fixed-action-btn">
+      <a class="btn-floating btn-large red hoverable">
+        <i class="large material-icons">apps</i>
+      </a>
+      <ul>
+        <!-- target="_blank" options -->
+        <li><a class="btn-floating red hoverable"><i class="material-icons">insert_chart</i></a></li>
+        <li><a class="btn-floating yellow darken-1 hoverable"><i class="material-icons">format_quote</i></a></li>
+        <li><a class="btn-floating green hoverable"><i class="material-icons">publish</i></a></li>
+        <li><a class="btn-floating blue hoverable"><i class="material-icons">attach_file</i></a></li>
+      </ul>
+    </div>
 
    <footer class="page-footer">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Getaways.co</h5>
-          <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla tenetur vitae, estiae quae asperiores cumque sequi! Ratione, architecto suscipit..</p>
+          <h5 class="white-text">Getaways.co LLC.</h5>
+            <p>1234 Malibu, California</p>
+            <p>P.O. Box 01234</p>
+            <p>Office Suite 1001</p>
+            <a class="btn tooltipped btn modal-trigger" data-position="bottom" data-tooltip="Additional Info"href="#modal1">Additional Info</a>
+
+          <!-- Modal Structure -->
+          <div id="modal1" class="modal">
+            <div class="modal-content">
+            
+              <h4 class="teal-text">Modal Header</h4>
+              <p class="teal-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nisi, illo ipsa rerum ducimus tempore quas pariatur dicta inventore dolor esse cupiditate temporibus reiciendis ipsum provident laudantium ipsam commodi mollitia?</p>
+              
+             
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-close waves-effect waves-green btn">Close</a>
+            </div>
+          </div>
         </div>
         <div class="col l4 offset-l2 s12">
           <h6 id="search" class="white-text"><a href="#map" class="white-text red btn z-depth-5 "> Location</h6></a>
           <ul>
             <li><a class="grey-text text-lighten-3" ><a href="#search" class="waves-effect waves-light red z-depth-5 btn">Search</a></a></li>
           </ul>
+          <ul>
+              <li><a class="text-white" ><a href="#popular" class="white-text">Testimonials</a></a></li>
+            <li><a class="text-white" ><a href="#" class="white-text">Privacy</a></a></li>
+            <li><a class="text-white" ><a href="#" class="white-text">Legal</a></a></li>
+            <li><a class="text-white" ><a href="#" class="white-text">Site Map</a></a></li>
+            <li><a class="text-white" ><a href="#" class="white-text">Home</a></a></li>
+
+            
+    
+          </ul>
+          </ul>
         </div>
       </div>
     </div>
-    <div class="page-footere container center">
+      <div class="page-footere container center">
      © 2019 MIT License. Travel Agency Template.<a class="grey-text text-lighten-4 right" href="#home"></a>
     </div>
   </footer>
@@ -479,8 +531,8 @@
       $(document).ready(function() {
     $(".datepicker").datepicker();
      });
-    
-
+    //model
+     $('.modal').modal();
 
     $(document).ready(function () {
       // Init Side nav
@@ -518,6 +570,9 @@
       $('.scrollspy').scrollSpy();
       //Init text character counter
       $('input#input_text, textarea#textarea2').characterCounter();
+
+      //dropdown navbar menu
+     $(".dropdown-trigger-mobile").dropdown();
 
 
     });
