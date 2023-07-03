@@ -2,6 +2,12 @@ Sample github pages portfolio / website.
 
 https://chasesinghofen.github.io/chasesinghofen/#
 
+https://news-corp.netlify.app/
+
+https://it-services-web-dev.netlify.app/#projects
+
+https://websitedev.netlify.app/#
+
 Updated randomly depending when projects are started/completed. 
 
 Please click the GitHub links on the Website to view project repo's.
