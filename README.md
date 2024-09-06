@@ -13,3 +13,5 @@ https://it-services-web-dev.netlify.app/#projects
 https://singhofen.github.io/
 
 https://www.chasesinghofen.com/
+
+https://chase-singhofen-resume.netlify.app/
